@@ -4,7 +4,7 @@
 
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0 16px 16px 24px;
+  padding: 0 16px 24px 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -19,5 +19,13 @@
 @media screen and (min-width: 1024px) {
   .footer {
     padding: 0 48px 24px 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
