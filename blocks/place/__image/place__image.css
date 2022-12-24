@@ -1,0 +1,9 @@
+.place__image {
+  display: block;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+@media screen {
+
+}
